@@ -1,0 +1,6 @@
+package DanhSachDoiBong;
+
+public abstract class DSDoiBong {
+	public abstract int demDoiBong();
+	
+}

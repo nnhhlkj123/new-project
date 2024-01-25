@@ -1,0 +1,14 @@
+package QuanLyDanhSachDoiBong;
+
+public class Co extends DSDoiBong {
+	private DoiBong thuNhat;
+	private DSDoiBong conLai;
+	
+	public Co(DoiBong thuNhat, DSDoiBong conLai) {
+		this.thuNhat=thuNhat;
+		this.conLai=conLai;
+	}
+	public int demDoiBong() {
+		return 1+conLai.demDoiBong();	
+		}
+}

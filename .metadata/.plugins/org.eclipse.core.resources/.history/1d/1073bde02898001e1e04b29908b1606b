@@ -1,0 +1,10 @@
+package BookStore;
+
+import junit.framework.TestCase;
+
+public class TestALoBooks extends TestCase{
+	public void testALoBooksContemporary(){
+		
+	}
+
+}

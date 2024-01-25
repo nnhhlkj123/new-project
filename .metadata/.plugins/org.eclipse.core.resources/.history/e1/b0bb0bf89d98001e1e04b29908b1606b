@@ -1,0 +1,12 @@
+package DanhSachDoiBong;
+
+public class ThongTinHLV {
+	private String ten;
+	private String soDT;
+	private DSDoiBong doiBong;
+	
+	public ThonTinHLV(String ten, String soDT) {
+		this.ten=ten;
+		this.soDT=soDT;
+	}
+}

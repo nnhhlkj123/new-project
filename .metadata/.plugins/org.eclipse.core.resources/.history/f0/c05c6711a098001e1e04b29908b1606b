@@ -1,0 +1,11 @@
+package DanhSachDoiBong;
+
+public class DoiBong {
+	private String tenDoi;
+	private ThongTinHLV huanLuyenVien;
+	private DSCT danhSach;
+	private int tranThang;
+	private int tranThua;
+	
+	
+}

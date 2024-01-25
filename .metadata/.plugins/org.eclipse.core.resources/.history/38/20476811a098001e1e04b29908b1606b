@@ -1,0 +1,15 @@
+package DanhSachDoiBong;
+
+import junit.framework.TestCase;
+
+public class TestSoDoiBong extends TestCase {
+	CT ct1=new CT("ten1",2000,20.4);
+	CT ct2=new CT("ten2",2001,19.4);
+	CT ct3=new CT("ten3",2001,21.3);
+	CT ct4=new CT("ten4",1999,15.4);
+	
+	DSCT d1=new ConCT(ct1,new ConCT(ct2,new KhongConCT()));
+	DSCT d2=new ConCT(ct3,new ConCT(ct4,new KhongConCT()));
+	
+	
+}
